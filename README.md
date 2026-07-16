@@ -32,7 +32,7 @@
 ## 🖥️ Local Setup
 
 ```bash
-git clone https://github.com/SegsyToxic-95/ToxicUB.git && cd KyrenUB
+git clone https://github.com/SegsyToxic-95/ToxicUB.git && cd ToxicUB
 pip install -r requirements.txt
 python generate_session.py
 cp .env.sample .env  # Edit with your credentials
@@ -79,7 +79,7 @@ ToxicUB/
 
 ## 🆕 What's new — merge of the two uploaded projects
 
-This build merges **NutzUB** (the zip, a Pyrogram bot — used as the base) with the
+This build merges **ToxicUB** (the zip, a Pyrogram bot — used as the base) with the
 **second uploaded userbot.py** (a Telethon bot). The two use different frameworks, so
 rather than pasting one into the other, unique/useful features from userbot.py were
 rewritten as native Pyrogram plugins and dropped into the existing plugin system.
