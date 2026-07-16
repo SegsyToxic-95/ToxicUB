@@ -1,0 +1,25 @@
+services:
+  - type: worker
+    name: toxicub
+    runtime: python
+    buildCommand: pip3 install -r requirements.txt
+    startCommand: python3 main.py
+    plan: free
+    autoDeploy: false
+    envVars:
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: STRING_SESSION
+        sync: false
+      - key: BOT_PREFIX
+        value: "."
+      - key: LOG_GROUP
+        sync: false
+      - key: SUDO_USERS
+        sync: false
+      - key: OWNER_USERNAME
+        value: "@SegsyToxic95"
+      - key: PYTHON_VERSION
+        value: "3.12.0"

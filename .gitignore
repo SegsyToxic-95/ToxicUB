@@ -1,0 +1,16 @@
+# secrets / local env
+.env
+*.session
+*.session-journal
+
+# runtime data (notes, todos, sudo list, antidel state, ignore list)
+data/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# logs
+*.log
